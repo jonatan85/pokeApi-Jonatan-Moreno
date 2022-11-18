@@ -1,0 +1,69 @@
+body {
+  background-image: url(../img/fondoDePantalla.jpeg);
+  background-size: contain;
+  text-align: center;
+}
+
+.boxHtml {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/poke.png);
+  width: 500px;
+  height: 480px;
+  border-radius: 40px;
+}
+
+.image-card {
+  width: 50%;
+  height: 50%;
+}
+
+#formHtml {
+  display: flex;
+  justify-content: center;
+}
+
+.pokedex-red {
+  width: 560px;
+  height: 320px;
+  background-image: url(../img/pokedex2.png);
+  align-items: center;
+}
+
+.enlace {
+  background-image: url(../img/pokedes\ bsucador.webp);
+  background-repeat: no-repeat;
+  align-items: center;
+  margin-left: 60px;
+  height: 1000px;
+}
+
+.poke-fuente {
+  font-size: 30px;
+}
+
+.lupa {
+  border-radius: 50%;
+  align-items: center;
+  cursor: pointer;
+}
+
+.botonPokemon {
+  cursor: pointer;
+}
+
+.siguiente {
+  background-color: yellow;
+  padding: 400;
+  margin-right: 200px;
+}/*# sourceMappingURL=index.css.map */

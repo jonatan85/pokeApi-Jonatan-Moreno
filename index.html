@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProyectoFinal</title>
+    <link rel="stylesheet" href="./app/css/index.css">
+    <script src="./app/index.js" type="module" defer></script>
+</head>
+<body>
+    <h1 class="portada"><a href="./index.html"><img src="./app/img/portadaPokemon.png" alt="Portada Pokemon"></a></h1>
+    
+    <div class="random">
+        <div>
+            <a class="lupa" id="random-button"><img class="lupa" src="./app/img/lupa.jpeg" alt="Busqueda random"></a>
+        </div>
+        <div id="random-id"></div>
+    </div>
+
+    <div id="formHtml">
+        
+        <div class="pokedex-red" id="buscador">
+            <h1 class="tituloBuscador">Buscador de cards Pokemon</h1>
+            <form id="formulario" >
+                <div> 
+                    <label class="block">Busca tu Pokemon</label>
+                    <input 
+                        type="text"
+                        class="inputPokemon"
+                        placeholder="Pokemon"
+                        id="termino"
+                        autocomplete="off"
+                    />
+
+                    <input 
+                        type="submit"
+                        value="BuscarPokemon"
+                        class="botonPokemon"
+                    >   
+                </div>
+            </form>
+        </div>
+        
+    </div> 
+    
+    
+    <div id="paginacion" class="paginacion"></div>
+    <div id="resultado" class="container "></div>
+
+    <div class="boxHtml"></div>
+
+
+            
+
+</body>
+</html>
